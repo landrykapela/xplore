@@ -1,10 +1,210 @@
-<!doctype html>
-<html lan=en>
-<head><title>Xplore Tours</title></head>
-<link href="css/styles.css" rel="stylesheet"/>
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <title>Xplore Tours</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <header id="header" class="image-bg bg-safari">
+      <div id="nav_menu">
+        <div id="slide_menu" class="slide_menu white hidden">
+          <i id="menu_close" class="material-icons text-grey">close</i>
+          <h2>Xplore Tours and Travel</h2>
+          <div class="menu_item" id="menu_home">
+            <i class="material-icons">home</i>&nbsp;&nbsp;<span>Home</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+          <div class="menu_item" id="menu_about">
+            <i class="material-icons">info</i>&nbsp;&nbsp;<span>About</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+          <div class="menu_item" id="menu_service">
+            <i class="material-icons">loyalty</i>&nbsp;&nbsp;<span
+              >Services</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+          <div class="menu_item" id="menu_partners">
+            <i class="material-icons">people</i>&nbsp;&nbsp;<span>Partners</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+          <div class="menu_item" id="menu_gallery">
+            <i class="material-icons">collections</i>&nbsp;&nbsp;<span
+              >Gallery</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+          <div class="menu_item" id="menu_contact">
+            <i class="material-icons">email</i>&nbsp;&nbsp;<span>Contact</span
+            ><i class="material-icons">chevron_right</i>
+          </div>
+        </div>
+        <i id="menu" class="material-icons text-white">dehaze</i>
+      </div>
+      <!-- <div class="vspace-small"></div> -->
+      <div class="content flex-column-center">
+        <!-- <img class="logo-large" src="images/logo.png" alt="Xplore Tours logo" /> -->
+        <p class="logo">X</p>
+        <div class="banner-texts">
+          <h1>Let's plan your world exploration</h1>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="image-bg bg-elephant flex-row-top-left">
+      <div class="green-trans" id="about-text">
+        <h1>About us</h1>
+        <p>
+          Xplore Tours and Travel, is a startup built with adventure and leisure
+          in mind just to give you the best experience of touring the world!
+          With its roots in Tanzania, we look into providing you with the best
+          information and help you make your adventure into the African jungles
+          and savanahs a great success.
+        </p>
+        <p>
+          We possess the best information that will enable you plan and execute
+          a smooth travel to your destination of interest with the least
+          struggle.
+        </p>
+      </div>
+    </section>
+    <section id="services">
+      <div class="vspace-small"></div>
+      <h1>What we do best</h1>
+      <div class="content flex-row-center flex-warp">
+        <div class="service_card shadow">
+          <span class="bg-flight image-bg"> </span>
 
+          <div class="base-color flex-row-even-center text-white">
+            <h3>
+              <i class="material-icons">flight</i>
+            </h3>
+            <h3>Flight Booking</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-airport image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>
+              <i class="material-icons">flight_land</i>
+            </h3>
+            <h3>Airport Pickups</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-hotel image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3><i class="material-icons">hotel</i></h3>
+            <h3>Hotel Booking</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-cheetah image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>
+              <i class="material-icons">explore</i>
+            </h3>
+            <h3>Safari Touring</h3>
+          </div>
+        </div>
+      </div>
+      <button
+        id="contact_rep"
+        class="secondary_color border-secondary-dark shadow"
+      >
+        Contact our Sales Rep
+      </button>
+    </section>
+    <section id="partners">
+      <h1>Our Partners</h1>
+      <div class="content flex-row-center flex-warp">
+        <div class="service_card shadow">
+          <span class="bg-flight image-bg"> </span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>Emirates</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-airport image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>Serena Hotel</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-hotel image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>Swala Tours and Safari</h3>
+          </div>
+        </div>
+        <div class="service_card shadow">
+          <span class="bg-cheetah image-bg"></span>
+          <div class="base-color flex-row-even-center text-white">
+            <h3>Tanzania National Parks Agency</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery"></section>
+    <section id="contact" class="image-bg bg-simbas">
+      <div class="vspace-small"></div>
+      <h1 class="text-white">Get in touch</h1>
+      <div class="content flex-column-center">
+        <form class="flex-column-center black-transparent corner-min">
+          <div class="form-control flex-column-center">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Landry Kapela"
+              class="corner-min"
+            />
+          </div>
+          <div class="form-control flex-column-center">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="corner-min"
+              placeholder="landrykapela@gmail.com"
+            />
+            <span id="email_error" class="hidden error"
+              >Invalid e-mail address</span
+            >
+          </div>
+          <div class="form-control flex-column-center">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Service Request"
+              class="corner-min"
+            />
+          </div>
+          <div class="form-control flex-column-center">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="10"
+              class="corner-min border-white"
+            ></textarea>
+          </div>
+          <div class="form-control flex-column-center">
+            <input
+              type="submit"
+              value="Submit"
+              class="secondary_color corner-min"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer></footer>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
