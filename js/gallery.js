@@ -59,9 +59,10 @@ const showImage = item => {
       imageViewer.classList.remove("hidden");
       imageViewer.classList.add("flex");
       imageViewer.style.zIndex = 10000;
-      document.body.classList.add("no-scroll");
+      // document.body.classList.add("no-scroll");
       title = item.firstElementChild.textContent;
       imageTitle.textContent = title;
+      imageViewer.scrollIntoView();
     }
   });
 };
@@ -81,5 +82,5 @@ const closeImageViewer = () => {
   imageViewer.classList.remove("flex");
   imageViewer.classList.add("hidden");
   imageViewer.style.zIndex = -10000;
-  document.body.classList.remove("no-scroll");
+  // document.body.classList.remove("no-scroll");
 };
