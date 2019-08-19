@@ -2,6 +2,7 @@ const menu_but = document.getElementById("menu");
 const slide_menu = document.getElementById("slide_menu");
 const menu_close = document.getElementById("menu_close");
 const menu_items = document.getElementsByClassName("menu_item");
+const button_rep = document.getElementById("contact_rep");
 
 //add click event to menu button
 if (menu_but) {
@@ -31,6 +32,12 @@ const hideSlideMenu = () => {
   }, 300);
 };
 
+//add click listener to big button
+if (button_rep) {
+  button_rep.addEventListener("click", () => {
+    document.getElementById("contact").scrollIntoView();
+  });
+}
 //add menu click events
 if (menu_items) {
   console.log("menues: ", menu_items[0].id);

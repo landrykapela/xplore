@@ -239,8 +239,8 @@ h1 {
 .service_card span {
   height: 240px;
   width: 100%;
-  display: block;
 }
+
 .service_card h3 {
   font-size: 1em;
   font-family: "Raleway", sans-serif;
