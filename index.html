@@ -10,6 +10,17 @@
   </head>
 
   <body>
+    <div id="image-viewer" class="hidden green-trans">
+      <div id="image-holder" class="white">
+        <img id="image" />
+        <div id="controls" class="flex-row-even-center text-grey ">
+          <i class="material-icons" id="image-previous">chevron_left</i>
+          <span id="image-source"></span>
+          <i class="material-icons" id="image-next">chevron_right</i>
+          <i class="material-icons" id="image-close">close</i>
+        </div>
+      </div>
+    </div>
     <header id="header" class="image-bg bg-safari">
       <div id="nav_menu">
         <div id="slide_menu" class="slide_menu white hidden">
@@ -67,6 +78,13 @@
           We possess the best information that will enable you plan and execute
           a smooth travel to your destination of interest with the least
           struggle.
+        </p>
+        <p>
+          Xplore Tours and Travel, is a startup built with adventure and leisure
+          in mind just to give you the best experience of touring the world!
+          With its roots in Tanzania, we look into providing you with the best
+          information and help you make your adventure into the African jungles
+          and savanahs a great success.
         </p>
       </div>
     </section>
@@ -182,7 +200,57 @@
         </div>
       </div>
     </section>
-    <section id="gallery"></section>
+    <section id="gallery" class="base-color">
+      <div class="vspace-small"></div>
+      <h1 class="text-white">Check out destinations</h1>
+      <div class="image-gallery">
+        <div
+          class="grid-item grid-col-1-2 grid-row-1-2 image-bg bg-giraffe_wide flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Tarangire National Park</span>
+        </div>
+        <div
+          id="item2"
+          class="grid-item image-bg bg-cheetah flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Saadan National Park</span>
+        </div>
+        <div
+          class="grid-item image-bg bg-rhyno_birds flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Serengeti National Park</span>
+        </div>
+        <div
+          class="grid-item image-bg bg-swala grid-col-3-2 flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Mikumi National Park</span>
+        </div>
+        <div class="grid-item image-bg bg-swala flex-column-center-bottom">
+          <span class="green-trans hidden">Mikumi National Park</span>
+        </div>
+        <div
+          class="grid-item image-bg bg-nyati grid-col-2-2 flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Mikumi National Park</span>
+        </div>
+        <div
+          class="grid-item image-bg bg-kili_cloud grid-row-3-2 grid-col-4-1 flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Kilimanjaro Mountain</span>
+        </div>
+        <div
+          id="item2"
+          class="grid-item image-bg bg-buffalo_bird flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Serengeti National Park</span>
+        </div>
+        <div
+          class="grid-item image-bg bg-rhyno_birds flex-column-center-bottom"
+        >
+          <span class="green-trans hidden">Serengeti National Park</span>
+        </div>
+      </div>
+    </section>
     <section id="contact" class="image-bg bg-simbas">
       <div class="vspace-small"></div>
       <h1 class="text-white">Get in touch</h1>
@@ -242,5 +310,6 @@
     </section>
     <footer></footer>
     <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
   </body>
 </html>
