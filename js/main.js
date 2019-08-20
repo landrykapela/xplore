@@ -65,6 +65,9 @@ if (menu_items) {
           document.getElementById("contact").scrollIntoView();
           break;
       }
+      setTimeout(() => {
+        hideSlideMenu();
+      }, 300);
     });
   }
 }
