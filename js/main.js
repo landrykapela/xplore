@@ -64,6 +64,9 @@ if (menu_items) {
         case "menu_contact":
           document.getElementById("contact").scrollIntoView();
           break;
+        case "menu_staff":
+          window.location.href = "http://xplore.co.tz/webmail";
+          break;
       }
     });
   }
