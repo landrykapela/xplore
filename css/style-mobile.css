@@ -28,7 +28,7 @@ h2 {
   padding: 1em;
 }
 form {
-  width: 98%;
+  width: 100%;
 }
 .form-control label {
   align-self: flex-start;
@@ -50,9 +50,9 @@ form {
 .form-control input[type="email"],
 .form-control input[type="text"],
 .form-control textarea {
-  padding: 1em 1.5em;
-  line-height: 2em;
-  width: 90%;
+  padding: 0.5em 1em;
+  line-height: 1.5em;
+  width: 80%;
   font-size: 1em;
   background: transparent;
   color: white;
@@ -126,8 +126,10 @@ header #menu_close {
 }
 header #menu {
   position: fixed;
-  top: 2em;
-  right: 2em;
+  top: 1em;
+  right: 1em;
+  background-color: black;
+  padding: 0.2em;
 }
 .image-bg {
   background-size: cover;
@@ -236,9 +238,9 @@ header #menu {
   padding: 0.5em;
 }
 .image-gallery {
-  padding: 1em auto;
+  margin: 1em auto;
   display: grid;
-  padding: 2em;
+  padding: .2em;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 180px 180px 180px 180px;
 }
@@ -334,7 +336,7 @@ h1 {
 }
 #about-text p {
   line-height: 2em;
-  padding: 2em 5em;
+  padding: 2em 2em;
   font-size: 1em;
   font-weight: 100;
 }
@@ -367,7 +369,7 @@ h1 {
 }
 .content {
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em;
 }
 .slide_menu {
   margin: 0 auto;

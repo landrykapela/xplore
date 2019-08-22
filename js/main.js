@@ -68,6 +68,9 @@ if (menu_items) {
           window.location.href = "http://xplore.co.tz/webmail";
           break;
       }
+      setTimeout(() => {
+        hideSlideMenu();
+      }, 300);
     });
   }
 }
