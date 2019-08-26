@@ -312,15 +312,15 @@ header {
   font-size: 3em;
 }
 .logo {
-  font-family: "Allerta Stencil", sans-serif;
-  color: rgb(13, 87, 44);
-  font-size: 5em;
+  padding-top: 10em;
+  width: 240px;
 }
 header,
 section {
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 1em;
   min-height: 100%;
 }
 #about-text {

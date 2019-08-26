@@ -240,7 +240,7 @@ header #menu {
 .image-gallery {
   margin: 1em auto;
   display: grid;
-  padding: .2em;
+  padding: 0.2em;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 180px 180px 180px 180px;
 }
@@ -313,9 +313,8 @@ header {
   font-size: 3em;
 }
 .logo {
-  font-family: "Allerta Stencil", sans-serif;
-  color: rgb(13, 87, 44);
-  font-size: 5em;
+  padding-top: 10em;
+  width: 120px;
 }
 header,
 section {
