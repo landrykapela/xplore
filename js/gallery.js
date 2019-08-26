@@ -50,6 +50,22 @@ if (imagePrevious) {
   });
 }
 
+window.addEventListener("keydown", e => {
+  e.preventDefault();
+  if (imageViewer.classList.contains("flex")) {
+    switch (e.keyCode) {
+      case 27:
+        closeImageViewer();
+        break;
+      case 37:
+        showPrevious();
+        break;
+      case 39:
+        showNext();
+        break;
+    }
+  }
+});
 const showImage = item => {
   item.classList.forEach(className => {
     if (className.substr(0, 3) === "bg-") {

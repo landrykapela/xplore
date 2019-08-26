@@ -65,7 +65,7 @@ if (menu_items) {
           document.getElementById("contact").scrollIntoView();
           break;
         case "menu_staff":
-          window.location.href = "http://xplore.co.tz/webmail";
+          window.location.href = "https://xplore.co.tz/webmail";
           break;
       }
       setTimeout(() => {
